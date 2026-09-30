@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Chesapeake Tavern - Customer</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <header>                   
+         <img src="logo-small.png">
+         <p>Fresh Seafood in the Heart of Long Valley</p>
+         <h1> CUSTOMER PAGE </h1>
+      </header>
+
+      <nav class="navbar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="location-hours.html">Location and Hours</a></li>
+            <li><a href="customer.html">Customer</a></li>
+         </ul>
+      </nav>
+
+      <main>
+         <form action="#" method="post">
+            <section class="form-card">
+               <h2>Create Customer Account</h2>
+
+               <label for="fname">First Name</label>
+               <input type="text" id="fname" name="fname" placeholder="First name" required>
+
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="lname" placeholder="Last name" required>
+
+               <label for="email">Email Address</label>
+               <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+               <label for="phone">Phone Number</label>
+               <input type="tel" id="phone" name="phone" placeholder="(908) 555-1234">
+
+               <label for="password">Password</label>
+               <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 characters" required>
+            </section>
+
+            <section class="form-card">
+               <h2>Tell us where you're from and<br>how we can improve!</h2>
+
+               <label for="state">State</label>
+               <input list="states" id="state" name="state" placeholder="Choose or type a state">
+               <datalist id="states">
+                  <option value="Connecticut">
+                  <option value="Delaware">
+                  <option value="Maryland">
+                  <option value="New Jersey">
+                  <option value="New York">
+                  <option value="Pennsylvania">
+               </datalist>
+
+               <label for="country">Country</label>
+               <input list="countries" id="country" name="country" placeholder="Choose or type a country">
+               <datalist id="countries">
+                  <option value="United States">
+                  <option value="Canada">
+                  <option value="Mexico">
+                  <option value="United Kingdom">
+               </datalist>
+
+               <label for="dish">Favorite Dish</label>
+               <input list="dishes" id="dish" name="dish" placeholder="Choose or type a dish">
+               <datalist id="dishes">
+                  <option value="Chesapeake Bay Crab Cakes">
+                  <option value="Chesapeake Lobster Roll">
+                  <option value="Lobster Tail">
+                  <option value="Shrimp & Grits">
+                  <option value="Fish -N- Chips">
+                  <option value="Dozen Steamers">
+                  <option value="Seafood Tower">
+                  <option value="Filet Your Way">
+               </datalist>
+
+               <label for="visit">Preferred Visit Day</label>
+               <input type="date" id="visit" name="visit">
+
+               <label for="comments">Comments or Suggestions</label>
+               <input type="text" id="comments" name="comments" placeholder="Tell us how we can improve">
+
+               <input type="submit" value="Submit">
+            </section>
+         </form>
+      </main>
+      <footer>
+         <p>
+            <b>Contact Us</b><br>
+            (908) 867-7102  -  help@chesapeaktavernnj.com<br>
+            © 2026 Chesapeake Tavern. All Rights Reserved.<br>
+            *Website Created by Devon Torralva*</p>
+      </footer>
+   </body>
+</html>

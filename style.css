@@ -1,0 +1,191 @@
+/* Header */
+header {
+  background-color: #485A65;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Nav */
+.navbar {
+  background-color: #394146;
+  padding: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: bisque;
+}
+
+/* Main */
+
+.java img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.menu-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.menu-col {
+  flex: 1;
+  min-width: 280px;
+  max-width: 420px;
+}
+
+.menu-row-single {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.menu-col-wide {
+  width: 100%;
+  max-width: 600px;
+}
+
+.table-menu {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.table-menu th, td {
+  border: 1px solid #485A65;
+  padding: 8px 14px;
+  text-align: left;
+}
+
+.table-menu th {
+  background-color: #485A65;
+  color: white;
+  text-align: center;
+}
+
+.table-location {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.table-location th, td {
+  border: 1px solid #485A65;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.table-location th {
+  background-color: #485A65;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #485A65;
+  color: rgb(182, 182, 182);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Form */
+form {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.form-card {
+  background-color: #f2f2f2;
+  border: 1px solid #485A65;
+  border-radius: 10px;
+  padding: 15px 20px 20px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-card h2 {
+  color: #485A65;
+  margin-top: 5px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #394146;
+  margin: 12px 0 4px;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password], input[type=date] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #485A65;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid #485A65;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #485A65;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #394146;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    margin: 8px;
+  }
+}
